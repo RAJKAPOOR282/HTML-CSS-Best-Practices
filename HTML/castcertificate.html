@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caste Certificate Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Application Form for Issuance of Caste Certificate</h1>
+        
+        <div class="form-section">
+            <h2>Service Payment Details</h2>
+            <p>1. Service Charges of the kiosk Operator: 18.00</p>
+            <p>2. Printing Charges per unit: 10.00</p>
+            <p>3. Scanning Charges per unit: 5.00</p>
+            <p>4. Degs Charges fee: 2.00</p>
+        </div>
+        
+        <div class="form-section">
+            <h2>Personal Details</h2>
+            <div class="form-group">
+                <label for="applicant-name">Applicant Name*</label>
+                <input type="text" id="applicant-name" name="applicant-name" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender*</label>
+                <input type="text" id="gender" name="gender" required>
+            </div>
+            <div class="form-group">
+                <label for="marital-status">Marital Status*</label>
+                <input type="text" id="marital-status" name="marital-status" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth*</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age*</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h2>Parents Details</h2>
+            <div class="form-group">
+                <label for="father-name">Father Name*</label>
+                <input type="text" id="father-name" name="father-name" required>
+            </div>
+            <div class="form-group">
+                <label for="mother-name">Mother Name*</label>
+                <input type="text" id="mother-name" name="mother-name" required>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h2>Spouse Details</h2>
+            <div class="form-group">
+                <label for="spouse-name">Spouse Name*</label>
+                <input type="text" id="spouse-name" name="spouse-name" required>
+            </div>
+            <div class="form-group">
+                <label for="relation-with-applicant">Relation With Applicant*</label>
+                <input type="text" id="relation-with-applicant" name="relation-with-applicant" required>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h2>Contact Details</h2>
+            <div class="form-group">
+                <label for="phone-no">Phone No</label>
+                <input type="text" id="phone-no" name="phone-no">
+            </div>
+            <div class="form-group">
+                <label for="mobile-no">Mobile No</label>
+                <input type="text" id="mobile-no" name="mobile-no">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h2>Permanent Address</h2>
+            <div class="form-group">
+                <label for="house-no">House No/Name*</label>
+                <input type="text" id="house-no" name="house-no" required>
+            </div>
+            <div class="form-group">
+                <label for="village">Village/Town*</label>
+                <input type="text" id="village" name="village" required>
+            </div>
+            <div class="form-group">
+                <label for="district">District*</label>
+                <input type="text" id="district" name="district" required>
+            </div>
+            <div class="form-group">
+                <label for="sub-division">Sub Division*</label>
+                <input type="text" id="sub-division" name="sub-division" required>
+            </div>
+            <div class="form-group">
+                <label for="tahsil">Tahsil*</label>
+                <input type="text" id="tahsil" name="tahsil" required>
+            </div>
+            <div class="form-group">
+                <label for="ri-circle">RI Circle*</label>
+                <input type="text" id="ri-circle" name="ri-circle" required>
+            </div>
+            <div class="form-group">
+                <label for="block">Block*</label>
+                <input type="text" id="block" name="block" required>
+            </div>
+            <div class="form-group">
+                <label for="police-station">Police Station*</label>
+                <input type="text" id="police-station" name="police-station" required>
+            </div>
+            <div class="form-group">
+                <label for="post-office">Post Office*</label>
+                <input type="text" id="post-office" name="post-office" required>
+            </div>
+            <div class="form-group">
+                <label for="pin">Pin*</label>
+                <input type="text" id="pin" name="pin" required>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h2>Submitter Details</h2>
+            <div class="form-group">
+                <label>Is applicant and submitter are same?*</label>
+                <label><input type="radio" name="same-submit" value="yes" required> Yes</label>
+                <label><input type="radio" name="same-submit" value="no" required> No</label>
+            </div>
+            <div class="form-group">
+                <label for="submitter-name">Submitter's Name*</label>
+                <input type="text" id="submitter-name" name="submitter-name" required>
+            </div>
+            <div class="form-group">
+                <label for="relation-with-applicant">Relation With Applicant*</label>
+                <input type="text" id="relation-with-applicant" name="relation-with-applicant" required>
+            </div>
+            <div class="form-group">
+                <label for="purpose">Purpose*</label>
+                <textarea id="purpose" name="purpose" required></textarea>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h2>Present Address</h2>
+            <div class="form-group">
+                <label>Is Present Address Same as Permanent Address?</label>
+                <label><input type="radio" name="same-address" value="yes"> Yes</label>
+                <label><input type="radio" name="same-address" value="no"> No</label>
+            </div>
+            <div class="form-group">
+                <label for="present-house-no">House No/Name*</label>
+                <input type="text" id="present-house-no" name="present-house-no" required>
+            </div>
+            <div class="form-group">
+                <label for="present-village">Village*</label>
+                <input type="text" id="present-village" name="present-village" required>
+            </div>
+            <div class="form-group">
+                <label for="present-district">District*</label>
+                <input type="text" id="present-district" name="present-district" required>
+            </div>
+            <div class="form-group">
+                <label for="present-sub-division">Sub Division*</label>
+                <input type="text" id="present-sub-division" name="present-sub-division" required>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h2>Land Record Details</h2>
+            <div class="form-group">
+                <label>Is ROR Produced?</label>
+                <label><input type="radio" name="ror-produced" value="yes"> Yes</label>
+                <label><input type="radio" name="ror-produced" value="no"> No</label>
+            </div>
+            <div class="form-group">
+                <label for="land-district">District*</label>
+                <input type="text" id="land-district" name="land-district" required>
+            </div>
+            <div class="form-group">
+                <label for="land-sub-division">Sub Division*</label>
+                <input type="text" id="land-sub-division" name="land-sub-division" required>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h2>Caste Details</h2>
+            <div class="form-group">
+                <label for="caste">Caste
+                    <!DOCTYPE html>
+                    <html lang="en">
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>Caste Certificate Application Form</title>
+                        <link rel="stylesheet" href="styles.css">
+                    </head>
+                    <body>
+                        <div class="form-container">
+                            <h1>Application Form for Issuance of Caste Certificate</h1>
+                            
+                            <div class="form-section">
+                                <h2>Service Payment Details</h2>
+                                <p>1. Service Charges of the kiosk Operator: 18.00</p>
+                                <p>2. Printing Charges per unit: 10.00</p>
+                                <p>3. Scanning Charges per unit: 5.00</p>
+                                <p>4. Degs Charges fee: 2.00</p>
+                            </div>
+                            
+                            <div class="form-section">
+                                <h2>Personal Details</h2>
+                                <div class="form-group">
+                                    <label for="applicant-name">Applicant Name*</label>
+                                    <input type="text" id="applicant-name" name="applicant-name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="gender">Gender*</label>
+                                    <input type="text" id="gender" name="gender" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="marital-status">Marital Status*</label>
+                                    <input type="text" id="marital-status" name="marital-status" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="dob">Date of Birth*</label>
+                                    <input type="date" id="dob" name="dob" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="age">Age*</label>
+                                    <input type="number" id="age" name="age" required>
+                                </div>
+                            </div>
+                    
+                            <div class="form-section">
+                                <h2>Parents Details</h2>
+                                <div class="form-group">
+                                    <label for="father-name">Father Name*</label>
+                                    <input type="text" id="father-name" name="father-name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="mother-name">Mother Name*</label>
+                                    <input type="text" id="mother-name" name="mother-name" required>
+                                </div>
+                            </div>
+                    
+                            <div class="form-section">
+                                <h2>Spouse Details</h2>
+                                <div class="form-group">
+                                    <label for="spouse-name">Spouse Name*</label>
+                                    <input type="text" id="spouse-name" name="spouse-name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="relation-with-applicant">Relation With Applicant*</label>
+                                    <input type="text" id="relation-with-applicant" name="relation-with-applicant" required>
+                                </div>
+                            </div>
+                    
+                            <div class="form-section">
+                                <h2>Contact Details</h2>
+                                <div class="form-group">
+                                    <label for="phone-no">Phone No</label>
+                                    <input type="text" id="phone-no" name="phone-no">
+                                </div>
+                                <div class="form-group">
+                                    <label for="mobile-no">Mobile No</label>
+                                    <input type="text" id="mobile-no" name="mobile-no">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email">
+                                </div>
+                            </div>
+                    
+                            <div class="form-section">
+                                <h2>Permanent Address</h2>
+                                <div class="form-group">
+                                    <label for="house-no">House No/Name*</label>
+                                    <input type="text" id="house-no" name="house-no" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="village">Village/Town*</label>
+                                    <input type="text" id="village" name="village" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="district">District*</label>
+                                    <input type="text" id="district" name="district" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="sub-division">Sub Division*</label>
+                                    <input type="text" id="sub-division" name="sub-division" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="tahsil">Tahsil*</label>
+                                    <input type="text" id="tahsil" name="tahsil" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="ri-circle">RI Circle*</label>
+                                    <input type="text" id="ri-circle" name="ri-circle" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="block">Block*</label>
+                                    <input type="text" id="block" name="block" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="police-station">Police Station*</label>
+                                    <input type="text" id="police-station" name="police-station" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="post-office">Post Office*</label>
+                                    <input type="text" id="post-office" name="post-office" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="pin">Pin*</label>
+                                    <input type="text" id="pin" name="pin" required>
+                                </div>
+                            </div>
+                    
+                            <div class="form-section">
+                                <h2>Submitter Details</h2>
+                                <div class="form-group">
+                                    <label>Is applicant and submitter are same?*</label>
+                                    <label><input type="radio" name="same-submit" value="yes" required> Yes</label>
+                                    <label><input type="radio" name="same-submit" value="no" required> No</label>
+                                </div>
+                                <div class="form-group">
+                                    <label for="submitter-name">Submitter's Name*</label>
+                                    <input type="text" id="submitter-name" name="submitter-name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="relation-with-applicant">Relation With Applicant*</label>
+                                    <input type="text" id="relation-with-applicant" name="relation-with-applicant" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="purpose">Purpose*</label>
+                                    <textarea id="purpose" name="purpose" required></textarea>
+                                </div>
+                            </div>
+                    
+                            <div class="form-section">
+                                <h2>Present Address</h2>
+                                <div class="form-group">
+                                    <label>Is Present Address Same as Permanent Address?</label>
+                                    <label><input type="radio" name="same-address" value="yes"> Yes</label>
+                                    <label><input type="radio" name="same-address" value="no"> No</label>
+                                </div>
+                                <div class="form-group">
+                                    <label for="present-house-no">House No/Name*</label>
+                                    <input type="text" id="present-house-no" name="present-house-no" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="present-village">Village*</label>
+                                    <input type="text" id="present-village" name="present-village" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="present-district">District*</label>
+                                    <input type="text" id="present-district" name="present-district" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="present-sub-division">Sub Division*</label>
+                                    <input type="text" id="present-sub-division" name="present-sub-division" required>
+                                </div>
+                            </div>
+                    
+                            <div class="form-section">
+                                <h2>Land Record Details</h2>
+                                <div class="form-group">
+                                    <label>Is ROR Produced?</label>
+                                    <label><input type="radio" name="ror-produced" value="yes"> Yes</label>
+                                    <label><input type="radio" name="ror-produced" value="no"> No</label>
+                                </div>
+                                <div class="form-group">
+                                    <label for="land-district">District*</label>
+                                    <input type="text" id="land-district" name="land-district" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="land-sub-division">Sub Division*</label>
+                                    <input type="text" id="land-sub-division" name="land-sub-division" required>
+                                </div>
+                            </div>
+                    
+                            <div class="form-section">
+                                <h2>Caste Details</h2>
+                                <div class="form-group">
+                                    <label for="caste">Caste
+                    
